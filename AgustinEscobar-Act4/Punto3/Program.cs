@@ -45,6 +45,7 @@ namespace Punto3
                     }
                 }
             }
+            Console.ReadKey();
         }
     }
 }

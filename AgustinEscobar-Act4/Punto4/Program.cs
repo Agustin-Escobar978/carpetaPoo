@@ -60,6 +60,7 @@ namespace Punto4
             } while (numCuen >= 0);
 
             Console.WriteLine("La suma de los Acreedores es: " + suma);
+            Console.ReadKey();
         }
     }
 }

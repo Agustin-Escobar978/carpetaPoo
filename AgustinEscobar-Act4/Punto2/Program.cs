@@ -20,6 +20,7 @@ namespace Punto2
                 num += 11;
                 i++;
             }
+            Console.ReadKey();
 
         }
     }

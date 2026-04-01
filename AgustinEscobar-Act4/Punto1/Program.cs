@@ -53,6 +53,7 @@ namespace Punto1
             Console.WriteLine(cant2);
             Console.Write("La cantidad de dinero que gasta la empresa en sueldos es: ");
             Console.WriteLine(gastoT);
+            Console.ReadKey();
         }
     }
 }
