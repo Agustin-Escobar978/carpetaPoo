@@ -1,0 +1,7 @@
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\bin\Debug\Punto4.exe.config
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\bin\Debug\Punto4.exe
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\bin\Debug\Punto4.pdb
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\obj\Debug\Punto4.csproj.AssemblyReference.cache
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\obj\Debug\Punto4.csproj.CoreCompileInputs.cache
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\obj\Debug\Punto4.exe
+C:\Users\agust\source\repos\AgustinEscobar-Act8\Punto4\obj\Debug\Punto4.pdb
