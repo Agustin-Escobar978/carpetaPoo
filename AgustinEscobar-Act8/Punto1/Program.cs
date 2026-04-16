@@ -20,9 +20,9 @@ namespace Punto1
             numIng = int.Parse(datoIng);
             vector = new int[numIng];
 
-            for(int i = 0; i < vector.Length; i++)
+            for (int i = 0; i < vector.Length; i++)
             {
-                Console.Write($"Ingrese el valor de la posicion {i} : " );
+                Console.Write($"Ingrese el valor de la posicion {i} : ");
                 datoIng = Console.ReadLine();
                 vector[i] = int.Parse(datoIng);
             }
@@ -30,32 +30,27 @@ namespace Punto1
 
         public void imprimir()
         {
-            int menor = vector[0];
-            bool rep = false;
+            int menor = vector[0], rep = 0;
 
-            for(int j = 0; j < vector.Length - 1; j++)
+            for (int j = 0; j < vector.Length - 1; j++)
             {
                 if (vector[j + 1] < menor)
                 {
                     menor = vector[j + 1];
                 }
-                for (int k = 0; k < vector.Length; k++)
+            }
+            for (int k = 0; k < vector.Length; k++)
+            {
+                if (menor == vector[k])
                 {
-                    if (vector[j] == vector[k] && j != k)
-                    {
-                        rep = true;
-                    }
+                    rep++;
                 }
             }
-            if (rep == true)
+            Console.WriteLine($"El numero mas chico del array es el: {menor}");
+            if (rep > 1)
             {
                 Console.WriteLine($"Hay una repeticion de numeros");
             }
-            else
-            {
-                Console.WriteLine($"El numero mas chico del array es el: {menor}");
-            }
-
         }
 
         static void Main(string[] args)
