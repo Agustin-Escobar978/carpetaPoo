@@ -5,3 +5,10 @@ C:\Users\agust\Documents\Gitbash\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug
 C:\Users\agust\Documents\Gitbash\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.csproj.CoreCompileInputs.cache
 C:\Users\agust\Documents\Gitbash\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.exe
 C:\Users\agust\Documents\Gitbash\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.pdb
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\bin\Debug\Punto3.exe.config
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\bin\Debug\Punto3.exe
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\bin\Debug\Punto3.pdb
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.csproj.AssemblyReference.cache
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.exe
+C:\Users\alumno\Documents\carpetaPoo\AgustinEscobar-Act9\Punto3\obj\Debug\Punto3.pdb

@@ -67,11 +67,19 @@ namespace Punto2
                 {
                     j++;
                     Console.WriteLine(nombres[(nombres.Length - j)]);
-                } while (ventas[ventas.Length - j] == ventas[(ventas.Length - j) - 1]);
+                    
+                } while (ventas[ventas.Length - j] == ventas[(ventas.Length - j) - 1] && j < ventas.Length - 1);
+                if(j == 4 && ventas[ventas.Length - j] == ventas[0]) {
+                    Console.WriteLine(nombres[0]);
+                    j++;
+                }  
+              Console.WriteLine($"Dando un total de {j}");
             }
+            /*   [Shinji, Rei, Asuka, Misato, Ritsuko]   */
             else
             {
                 Console.WriteLine($"El vendedor que menos vendio fue: {nombres[(nombres.Length - 1)]}");
+                Console.WriteLine("Dando un total de 1");
             }
             
         }
