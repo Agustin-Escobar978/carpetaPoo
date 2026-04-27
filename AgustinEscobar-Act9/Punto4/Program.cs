@@ -35,7 +35,7 @@ namespace Punto4
         public void ordenar()
         {
             string auxN;
-            int auxP;
+            int auxP, k = 0;
             for (int i = 0; i<notas.Length ; i++)
             {
                 for (int j = 0; j<(notas.Length - 1) - i; j++) {
@@ -50,11 +50,24 @@ namespace Punto4
                     }
                 }
             }
-            Console.WriteLine($"El docente con la calificacion mas alta es {nombres[0]} con {notas[0]}\nY con la calificacion mas baja es {nombres[nombres.Length - 1]} con {notas[notas.Length - 1]}");
+            Console.WriteLine("***El/Los docentes con la calificacion mas alta son: ***");
+            do
+            {
+                Console.WriteLine($"{nombres[k]} con {notas[k]}");
+                k++;
+            } while (notas[k - 1] == notas[k] && k < notas.Length - 1);
+            Console.WriteLine("***El/Los docentes con la calificacion mas bajas son: ***");
+            k = 0;
+            do
+            {
+                k++;
+                Console.WriteLine($"{nombres[nombres.Length - k]} con {notas[notas.Length - k]}");
+            } while (notas[notas.Length - k] == notas[(notas.Length - k) - 1] && k < notas.Length - 1);
         }
 
         public void verificar()
         {
+            int cant = 0;
             if (notas[0] < 6)
             {
                 Console.WriteLine("***Ningun docente supero los 6 puntos***");
@@ -67,8 +80,10 @@ namespace Punto4
                     if (notas[i] >= 6)
                     {
                         Console.WriteLine(nombres[i]);
+                        cant++;
                     }
                 }
+                Console.WriteLine($"dando una cantidad de {cant}");
             }
            
         }

@@ -64,7 +64,8 @@ namespace Punto3
                     Console.WriteLine(nombres[j]);
                 }
             }
-            Console.WriteLine($"***El/Los mejores atletas con peores tiempos***");
+            Console.WriteLine();
+            Console.WriteLine($"***El/Los atletas con peores tiempos***");
             for (int k = 0; k < tiempos.Length; k++)
             {
                 if (tiempos[k] == peor)
