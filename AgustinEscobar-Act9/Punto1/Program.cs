@@ -16,27 +16,39 @@ namespace Punto1
     {
         private string[] nombres;
         private int[] notas;
-        private int[] posMax;
-        private int[] posMin;
 
         public void cargar()
         {
             nombres = new string[6];
             notas = new int[6];
-            string datoIng;
+            int datoIng;
 
             for (int i = 0; i<nombres.Length; i++) {
                 Console.Write($"Ingrese el nombre del {i + 1}° alumno: ");
                 nombres[i] = Console.ReadLine();
-                Console.Write($"Ingrese la nota de {nombres[i]}: ");
-                datoIng = Console.ReadLine();
-                notas[i] = int.Parse(datoIng);
+                bool verif = false;
+                do
+                {
+                    Console.Write($"Ingrese la nota de {nombres[i]}: ");
+                    datoIng = int.Parse(Console.ReadLine());
+                    if(datoIng > 10 || datoIng < 0)
+                    {
+                        Console.WriteLine("Ingrese un numero entre 0 y 10");
+                    }
+                    else
+                    {
+                        verif = true;
+                    }
+                    
+                } while (verif == false);
+                notas[i] = datoIng;
+
             }
         }
 
         public void maxymin()
         {
-            int max = 0, min = notas[0], cantMax = 0, cantMin = 0, a = 0, b = 0;
+            int max = notas[notas.Length - 1], min = notas[0];
             for(int i = 0; i < notas.Length; i++)
             {
                 if(max < notas[i])
@@ -47,63 +59,36 @@ namespace Punto1
                     min = notas [i];
                 }
             }
-            for (int j = 0; j < nombres.Length; j++)
-            {
-                if (max == notas[j])
-                {
-                    cantMax++;
-                }if(min == notas[j])
-                {
-                    cantMin++;
-                }
-            }
-            posMax = new int[cantMax];
-            posMin = new int[cantMin];
-                for (int k = 0; k < notas.Length; k++)
-                {
-                    if (max == notas[k] )
-                    {
-                        posMax[a] = k;
-                        a++;
-                    }
-                if (min == notas[k])
-                {
-                    posMin[b] = k;
-                    b++;
-                }
-            }
-            
-            
+                            
             imprimir(max, min);
         }
 
 
         public void imprimir(int max, int min)
         {
-            if (posMax.Length > 1)
-            {
-                Console.WriteLine($"la nota mas alta es {max} y los alumnos que la tienen son {posMax.Length}: ");
-                for (int i = 0; i < posMax.Length; i++)
+            int cont = 0;
+            Console.WriteLine("***El/los alumnos con la nota mas alta son: ***");
+            for (int i = 0; i < nombres.Length; i ++) {
+                if (notas[i] == max)
                 {
-                    Console.WriteLine(nombres[posMax[i]]);
+                    Console.WriteLine($"{nombres[i]}-----{notas[i]}");
+                    cont++;
                 }
             }
-            else
+            Console.WriteLine($"Dando un total de {cont} Estudiante/s con esa nota\n");
+
+            cont = 0;
+
+            Console.WriteLine("***El/los alumnos con la nota mas baja son: ***");
+            for (int j = 0; j < nombres.Length; j++)
             {
-                Console.WriteLine($"La nota maxima es {max} por el alumno {nombres[posMax[0]]}");
-            }
-            if (posMin.Length > 1)
-            {
-                Console.WriteLine($"la nota mas baja es {min} y los alumnos que la tienen son {posMin.Length}: ");
-                for (int i = 0; i < posMin.Length; i++)
+                if (notas[j] == min)
                 {
-                    Console.WriteLine(nombres[posMin[i]]);
+                    Console.WriteLine($"{nombres[j]}-----{notas[j]}");
+                    cont++;
                 }
             }
-            else
-            {
-                Console.WriteLine($"La nota mas baja es {min} por el alumno {nombres[posMin[0]]}");
-            }
+            Console.WriteLine($"Dando un total de {cont} Estudiante/s con esa nota");
         }
         static void Main(string[] args)
         {

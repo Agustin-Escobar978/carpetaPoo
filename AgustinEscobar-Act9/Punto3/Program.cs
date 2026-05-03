@@ -19,14 +19,27 @@ namespace Punto3
         public void cargar() {
             nombres = new string[5];
             tiempos = new float[5];
-            string datoIng;
+            float datoIng;
             for(int i = 0; i<nombres.Length; i++)
             {
                 Console.Write($"Ingrese el nombre del {i + 1}° atleta: ");
                 nombres[i] = Console.ReadLine();
-                Console.Write($"Ingrese el tiempo de {nombres[i]}: ");
-                datoIng = Console.ReadLine();
-                tiempos[i] = float.Parse(datoIng);
+                bool verif = false;
+                do
+                {
+                    Console.Write($"Ingrese el tiempo de {nombres[i]}: ");
+                    datoIng = float.Parse(Console.ReadLine());
+                    if(datoIng < 0)
+                    {
+                        Console.WriteLine("Ingrese un valor valido (>= 0)");
+                    }
+                    else
+                    {
+                        verif = true;
+                    }
+                } while (verif == false);
+                tiempos[i] = datoIng;
+
             }
         }
 
@@ -56,7 +69,7 @@ namespace Punto3
                     posP = i;
                 }
             }
-            Console.WriteLine($"***El/Los mejores atletas con mejores tiempos***");
+            Console.WriteLine($"***El/Los atletas con mejores tiempos***");
             for(int j = 0; j<tiempos.Length; j++)
             {
                 if (tiempos[j] == mej)

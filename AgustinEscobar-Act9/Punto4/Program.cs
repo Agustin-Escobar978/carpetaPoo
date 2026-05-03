@@ -22,20 +22,34 @@ namespace Punto4
         {
             nombres = new string[6];
             notas = new int[6];
-            string datoIng;
-            for(int i = 0; i<nombres.Length; i++)
+            int datoIng;
+            bool verif = false;
+            for (int i = 0; i<nombres.Length; i++)
             {
+                verif = false;
                 Console.Write($"Ingrese el nombre del {i + 1}° docente: ");
                 nombres[i] = Console.ReadLine();
-                Console.Write($"Ingrese el puntaje de {nombres[i]}: ");
-                datoIng = Console.ReadLine();
-                notas[i] = int.Parse(datoIng);
+                do
+                {
+                    Console.Write($"Ingrese el puntaje de {nombres[i]}: ");
+                    datoIng = int.Parse(Console.ReadLine());
+                    if (datoIng > 10 || datoIng < 1)
+                    {
+                        Console.WriteLine("***Ingrese una nota entre 1 y 10***");
+                    }
+                    else
+                    {
+                        verif = true;
+                    }
+
+                } while (verif == false);
+                notas[i] = datoIng;
             }
         }
         public void ordenar()
         {
             string auxN;
-            int auxP, k = 0;
+            int auxP;
             for (int i = 0; i<notas.Length ; i++)
             {
                 for (int j = 0; j<(notas.Length - 1) - i; j++) {
@@ -50,31 +64,32 @@ namespace Punto4
                     }
                 }
             }
+            int aux = notas[0];
             Console.WriteLine("***El/Los docentes con la calificacion mas alta son: ***");
-            do
+            for (int k = 0; k < notas.Length; k++) 
             {
-                Console.WriteLine($"{nombres[k]} con {notas[k]}");
-                k++;
-            } while (notas[k - 1] == notas[k] && k < notas.Length - 1);
+                if(aux == notas[k])
+                {
+                    Console.WriteLine($"{nombres[k]}-----{notas[k]}");
+                }
+            }
+
+            aux = notas[notas.Length - 1];
             Console.WriteLine("***El/Los docentes con la calificacion mas bajas son: ***");
-            k = 0;
-            do
+            for (int l = 0; l < notas.Length; l++)
             {
-                k++;
-                Console.WriteLine($"{nombres[nombres.Length - k]} con {notas[notas.Length - k]}");
-            } while (notas[notas.Length - k] == notas[(notas.Length - k) - 1] && k < notas.Length - 1);
+                if (aux == notas[notas.Length - l - 1])
+                {
+                    Console.WriteLine($"{nombres[nombres.Length - l - 1]}-----{notas[notas.Length - l - 1]}");
+                }
+            }
+
         }
 
         public void verificar()
         {
             int cant = 0;
-            if (notas[0] < 6)
-            {
-                Console.WriteLine("***Ningun docente supero los 6 puntos***");
-            }
-            else
-            {
-                Console.WriteLine("***El/Los docentes que aprobaron fueron***");
+            Console.WriteLine("***El/Los docentes que aprobaron fueron: ***");
                 for (int i = 0; i < notas.Length; i++)
                 {
                     if (notas[i] >= 6)
@@ -84,8 +99,18 @@ namespace Punto4
                     }
                 }
                 Console.WriteLine($"dando una cantidad de {cant}");
+
+            cant = 0;
+            Console.WriteLine("***El/Los docentes que desaprobaron fueron: ***");
+            for (int i = 0; i < notas.Length; i++)
+            {
+                if (notas[i] < 6)
+                {
+                    Console.WriteLine(nombres[i]);
+                    cant++;
+                }
             }
-           
+            Console.WriteLine($"dando una cantidad de {cant}");
         }
 
         static void Main(string[] args)

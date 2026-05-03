@@ -20,14 +20,28 @@ namespace Punto2
         {
             nombres = new string[5];
             ventas = new int[5];
-            string datoIng;
+            int datoIng;
             for(int i = 0; i<nombres.Length; i++)
             {
                 Console.Write($"Ingrese el nombre del {i + 1}° vendedor: ");
                 nombres[i] = Console.ReadLine();
-                Console.Write($"Ingrese la cantidad de ventas que tuvo {nombres[i]} en el mes: ");
-                datoIng = Console.ReadLine();
-                ventas[i] = int.Parse(datoIng);
+                bool verif = false;
+                do
+                {
+                    Console.Write($"Ingrese la cantidad de ventas que tuvo {nombres[i]} en el mes: ");
+                    datoIng = int.Parse(Console.ReadLine());
+                    if (datoIng < 0)
+                    {
+                        Console.WriteLine("Ingrese un numero valido (>= 0)");
+                    }
+                    else
+                    {
+                        verif = true;
+                    }
+
+                } while (verif == false);
+                
+                ventas[i] = datoIng;
             }
         }
 
@@ -59,29 +73,21 @@ namespace Punto2
             {
                 Console.WriteLine($"{nombres[i]}-----{ventas[i]}");
             }
-            if (ventas[ventas.Length - 1] == ventas[ventas.Length - 2])
+            Console.WriteLine($"El/Los vendedores que menos vendieron fueron: ");
+
+            int min = ventas[ventas.Length - 1];
+            for (int j = 0; j < ventas.Length; j++)
             {
-                int j = 0;
-                Console.WriteLine($"Los vendedores que menos vendieron fueron: ");
-                do
+                if (min == ventas[ventas.Length - j - 1])
                 {
-                    j++;
-                    Console.WriteLine(nombres[(nombres.Length - j)]);
-                    
-                } while (ventas[ventas.Length - j] == ventas[(ventas.Length - j) - 1] && j < ventas.Length - 1);
-                if(j == 4 && ventas[ventas.Length - j] == ventas[0]) {
-                    Console.WriteLine(nombres[0]);
-                    j++;
-                }  
-              Console.WriteLine($"Dando un total de {j}");
+                    Console.WriteLine(nombres[nombres.Length - j - 1]);
+                }
+                else
+                {
+                    j = ventas.Length;
+                }
             }
-            /*   [Shinji, Rei, Asuka, Misato, Ritsuko]   */
-            else
-            {
-                Console.WriteLine($"El vendedor que menos vendio fue: {nombres[(nombres.Length - 1)]}");
-                Console.WriteLine("Dando un total de 1");
-            }
-            
+
         }
 
         static void Main(string[] args)
