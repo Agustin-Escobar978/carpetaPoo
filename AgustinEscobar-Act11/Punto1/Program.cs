@@ -104,6 +104,8 @@ namespace Punto1
             t1.imprimir();
             t1.trimestral();
             t1.mayorTri();
+
+            Console.ReadKey();
         }
     }
 }
