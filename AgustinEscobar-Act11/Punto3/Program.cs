@@ -30,7 +30,7 @@ namespace Punto3
                 nombres[i] = Console.ReadLine();
                 Console.Write($"Ingrese la cantidad de faltas que tuvo {nombres[i]}: ");
                 int cant = int.Parse(Console.ReadLine());
-                faltas[i] = new string[cant];       // verificacion (no ingresar numeros negativos) 
+                faltas[i] = new string[cant];      
                 for(int j = 0; j<cant; j++)
                 {
                     Console.Write($"Ingrese la fecha de la {j + 1}° falta: ");
