@@ -26,10 +26,13 @@ namespace Punto1
             Console.WriteLine($"\nEl nombre del empleado es: {nombre}\nSu sueldo es de: {sueldo}$");
         }
 
-        public void Impuestos() { 
-            if(sueldo > 3000)
+        public void Impuestos() {
+            if (sueldo > 3000)
             {
                 Console.WriteLine("\nEl empleado debe pagar impuestos debido a que su sueldo supero los 3000$");
+            }
+            else {
+                Console.WriteLine("\nEl empleado no debe pagar impuestos");
             }
         }
         static void Main(string[] args)

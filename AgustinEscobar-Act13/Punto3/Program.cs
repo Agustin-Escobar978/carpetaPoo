@@ -47,7 +47,7 @@ namespace Punto3
             socio3 = new Socio();
         }
 
-        public void Responsabilidad() {
+        public void mayorAnt() {
             if(socio1.RetornarAnt() > socio2.RetornarAnt() && socio1.RetornarAnt() > socio3.RetornarAnt())
             {
                 Console.WriteLine($"La edad mas antigua la tiene {socio1.RetornarNom()} con {socio1.RetornarAnt()} años");
@@ -64,7 +64,7 @@ namespace Punto3
         static void Main(string[] args)
         {
             Club c1 = new Club();
-            c1.Responsabilidad();
+            c1.mayorAnt();
 
             Console.ReadKey();
         }
