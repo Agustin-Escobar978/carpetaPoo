@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\",
+  "WorkspaceRootPath": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B6C8101-FB03-4447-87DC-957344F46A56}|Punto3\\Punto3.csproj|c:\\users\\alumno.et26\\downloads\\agustinescobar-act14\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BB11943-B5DC-45C0-ACE6-79DB66CAFD7C}|Punto4\\Punto4.csproj|c:\\users\\alumno.et26\\documents\\carpetapoo\\agustinescobar-act14\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BB11943-B5DC-45C0-ACE6-79DB66CAFD7C}|Punto4\\Punto4.csproj|solutionrelative:punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6C8101-FB03-4447-87DC-957344F46A56}|Punto3\\Punto3.csproj|c:\\users\\alumno.et26\\documents\\carpetapoo\\agustinescobar-act14\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B6C8101-FB03-4447-87DC-957344F46A56}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75CB9A1B-5955-4111-8FBB-563D839433A3}|Punto1\\Punto1.csproj|C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75CB9A1B-5955-4111-8FBB-563D839433A3}|Punto1\\Punto1.csproj|C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75CB9A1B-5955-4111-8FBB-563D839433A3}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{361A6FCD-F1B4-458C-8D14-006E34A8DBA1}|Punto2\\Punto2.csproj|C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{361A6FCD-F1B4-458C-8D14-006E34A8DBA1}|Punto2\\Punto2.csproj|C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{361A6FCD-F1B4-458C-8D14-006E34A8DBA1}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,22 +32,35 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\Punto3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto4\\Program.cs",
+              "RelativeDocumentMoniker": "Punto4\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto4\\Program.cs",
+              "RelativeToolTip": "Punto4\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:21:34.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto3\\Program.cs",
               "RelativeDocumentMoniker": "Punto3\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\Punto3\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto3\\Program.cs",
               "RelativeToolTip": "Punto3\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwDIAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T12:19:13.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\Punto2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto2\\Program.cs",
               "RelativeDocumentMoniker": "Punto2\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto2\\Program.cs",
               "RelativeToolTip": "Punto2\\Program.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,11 +68,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\Punto1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto1\\Program.cs",
               "RelativeDocumentMoniker": "Punto1\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\AgustinEscobar-Act14\\Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\carpetaPoo\\AgustinEscobar-Act14\\Punto1\\Program.cs",
               "RelativeToolTip": "Punto1\\Program.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAYwGkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -48,7 +48,7 @@ namespace Punto3
 
         public void Imprimir() {
             for (int i = 0; i < Atletas.Length; i++) {
-                Console.WriteLine($"\nEl nombre del {i + 1}° atleta es {Atletas[i].RetornarNom()} y su tiempo es {Atletas[i].RetornarTie()}");
+                Console.WriteLine($"\nEl nombre del {i + 1}° atleta es {Atletas[i].RetornarNom()} y su tiempo es {Atletas[i].RetornarTie()}s");
             }
         }
 
@@ -58,13 +58,47 @@ namespace Punto3
                 prom += Atletas[i].RetornarTie();
             }
             prom /= Atletas.Length;
-            Console.WriteLine("");
+            Console.WriteLine($"\n***El promedio de la carrera es {prom}s***");
+        }
+
+        public void Ganador() {
+            float ganando = Atletas[0].RetornarTie();
+            for (int i = 0; i < Atletas.Length; i++) {
+                float tiempoAct = Atletas[i].RetornarTie();
+                if (ganando > tiempoAct) {
+                    ganando = tiempoAct;
+                }
+            }
+            Console.WriteLine("\n***El ganador de la carrera es***");
+            for (int j = 0; j < Atletas.Length; j++) {
+                if (ganando == Atletas[j].RetornarTie()) {
+                    Console.WriteLine($"{Atletas[j].RetornarNom()} con {Atletas[j].RetornarTie()}s");
+                }
+            }
+        }
+
+        public void PromedioSup() {
+            float prom = 0;
+            for (int i = 0; i < Atletas.Length; i++)
+            {
+                prom += Atletas[i].RetornarTie();
+            }
+            prom /= Atletas.Length;
+            Console.WriteLine("\n***Los atletas que superaron el promedio fueron***");
+            for (int j = 0; j < Atletas.Length; j++) {
+                if (prom > Atletas[j].RetornarTie()) {
+                    Console.WriteLine($"\n{Atletas[j].RetornarNom()} con un tiempo de: {Atletas[j].RetornarTie()}s");
+                }
+            }
         }
 
         static void Main(string[] args)
         {
             Carrera c1 = new Carrera();
             c1.Imprimir();
+            c1.Promedio();
+            c1.Ganador();
+            c1.PromedioSup();
 
             Console.ReadKey();
         }
