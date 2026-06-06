@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Punto3
@@ -13,77 +14,35 @@ namespace Punto3
         Auto, cilindrada en Moto).
         Crear un objeto de cada clase y mostrar todos sus datos por consola.*/
 
-    class Vehiculo
+    public class Vehiculo
     {
         protected string marca;
         protected float velocidadMaxima;
 
+        public Vehiculo(string m, float vm) {
+            marca = m;
+            velocidadMaxima = vm;
+        }
 
-        public string Marca
-        {
-            set {
-                marca = value;
-            }
-            get {
-                return marca;
-            }
-        }
-        public float VelocidadMaxima
-        {
-            set
-            {
-                velocidadMaxima = value;
-            }
-            get
-            {
-                return velocidadMaxima;
-            }
-        }
 
     }
 
-    class Auto : Vehiculo {
+    public class Auto : Vehiculo {
         private int cantPuerta;
 
-        public int CantPuerta {
-            set {
-                cantPuerta = value;
-            }
-            get {
-                return cantPuerta;
-            }
-        }
-
-        public Auto() {
-            Console.Write("Ingrese la marca del auto: ");
-            marca = Console.ReadLine();
-            Console.Write("Ingrese la velocidad maxima del auto: ");
-            velocidadMaxima = float.Parse(Console.ReadLine());
-            Console.Write("Ingrese la cantidad de puertas del auto: ");
-            cantPuerta = int.Parse(Console.ReadLine());
+        public Auto(string m, float vm, int cp) : base(m, vm){
+            cantPuerta = cp;
+            Console.WriteLine($"La marca del auto es: {marca} con una velocidad maxima de {velocidadMaxima} y {cantPuerta} puertas\n");
         }
     }
 
-    class Moto : Vehiculo {
+    public class Moto : Vehiculo {
         private int cilindrada;
 
-        public int Cilindrada {
-            set {
-                cilindrada = value;
-            }
-            get {
-                return cilindrada;
-            }
-        }
-
-        public Moto()
+        public Moto(string m, float vm, int c) : base(m, vm)
         {
-            Console.Write("Ingrese la marca de la moto: ");
-            marca = Console.ReadLine();
-            Console.Write("Ingrese la velocidad maxima de la moto: ");
-            velocidadMaxima = float.Parse(Console.ReadLine());
-            Console.Write("Ingrese la cantidad de cilindradas de la moto: ");
-            cilindrada = int.Parse(Console.ReadLine());
+            cilindrada = c;
+            Console.WriteLine($"La marca de la moto es: {marca} con una velocidad maxima de {velocidadMaxima} y {cilindrada} cilindradas\n");
         }
     }
 
@@ -91,11 +50,22 @@ namespace Punto3
     {
         static void Main(string[] args)
         {
-            Auto auto1 = new Auto();
-            Console.WriteLine($"La marca del auto es: {auto1.Marca} con una velocidad maxima de {auto1.VelocidadMaxima} y {auto1.CantPuerta}\n");
+            Console.Write("Ingrese la marca del auto: ");
+            string marca = Console.ReadLine();
+            Console.Write("Ingrese la velocidad maxima del auto: ");
+            float velocidadMaxima = float.Parse(Console.ReadLine());
+            Console.Write("Ingrese la cantidad de puertas del auto: ");
+            int cantPuerta = int.Parse(Console.ReadLine());
+            Auto auto1 = new Auto(marca, velocidadMaxima, cantPuerta);
 
-            Moto moto1 = new Moto();
-            Console.WriteLine($"La marca de la moto es: {moto1.Marca} con una velocidad maxima de {moto1.VelocidadMaxima} y {moto1.Cilindrada}\n");
+            Console.Write("Ingrese la marca de la moto: ");
+            marca = Console.ReadLine();
+            Console.Write("Ingrese la velocidad maxima de la moto: ");
+            velocidadMaxima = float.Parse(Console.ReadLine());
+            Console.Write("Ingrese la cantidad de cilindradas de la moto: ");
+            int cilindrada = int.Parse(Console.ReadLine());
+            Moto moto1 = new Moto(marca, velocidadMaxima, cilindrada);
+
 
             Console.ReadKey();
         }

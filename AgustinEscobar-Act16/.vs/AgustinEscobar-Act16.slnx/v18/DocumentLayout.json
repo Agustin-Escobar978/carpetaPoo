@@ -1,18 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\",
+  "WorkspaceRootPath": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3DB6877-5054-4381-80DC-FA844E5AC4F4}|Punto3\\Punto3.csproj|c:\\users\\alumno.et26\\source\\repos\\agustinescobar-act16\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFC9ADFD-7EE9-49F2-BAF6-B890567E8221}|Punto2\\Punto2.csproj|C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFC9ADFD-7EE9-49F2-BAF6-B890567E8221}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C79B3E-54FA-4ABF-B6B7-A15749E8B3ED}|Punto1\\Punto1.csproj|c:\\users\\agust\\documents\\gitbash\\carpetapoo\\agustinescobar-act16\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C79B3E-54FA-4ABF-B6B7-A15749E8B3ED}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEE32DCA-D8A0-4CC0-82DE-3A8957B8A6C5}|Punto4\\Punto4.csproj|c:\\users\\agust\\documents\\gitbash\\carpetapoo\\agustinescobar-act16\\punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEE32DCA-D8A0-4CC0-82DE-3A8957B8A6C5}|Punto4\\Punto4.csproj|solutionrelative:punto4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3DB6877-5054-4381-80DC-FA844E5AC4F4}|Punto3\\Punto3.csproj|c:\\users\\agust\\documents\\gitbash\\carpetapoo\\agustinescobar-act16\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3DB6877-5054-4381-80DC-FA844E5AC4F4}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCE109FD-F5DC-4110-9BE6-C0D8C78EE260}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\alumno.et26\\source\\repos\\agustinescobar-act16\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCE109FD-F5DC-4110-9BE6-C0D8C78EE260}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFC9ADFD-7EE9-49F2-BAF6-B890567E8221}|Punto2\\Punto2.csproj|c:\\users\\alumno.et26\\source\\repos\\agustinescobar-act16\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFC9ADFD-7EE9-49F2-BAF6-B890567E8221}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +29,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\Punto2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto2\\Program.cs",
               "RelativeDocumentMoniker": "Punto2\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto2\\Program.cs",
               "RelativeToolTip": "Punto2\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAADwv1IAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T11:46:32.729Z",
               "IsPinned": true,
@@ -40,29 +47,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\Punto3\\Program.cs",
-              "RelativeDocumentMoniker": "Punto3\\Program.cs",
-              "ToolTip": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\Punto3\\Program.cs",
-              "RelativeToolTip": "Punto3\\Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAqwFQAAABIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto4\\Program.cs",
+              "RelativeDocumentMoniker": "Punto4\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto4\\Program.cs",
+              "RelativeToolTip": "Punto4\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T14:11:38.774Z",
+              "WhenOpened": "2026-06-06T21:37:43.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto1\\Program.cs",
+              "RelativeDocumentMoniker": "Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto1\\Program.cs",
+              "RelativeToolTip": "Punto1\\Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA/wGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-06T21:34:26.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto3\\Program.cs",
+              "RelativeDocumentMoniker": "Punto3\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\Documents\\Gitbash\\carpetaPoo\\AgustinEscobar-Act16\\Punto3\\Program.cs",
+              "RelativeToolTip": "Punto3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:11:38.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\ConsoleApp1\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\ConsoleApp1\\Program.cs",
-              "RelativeToolTip": "ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\alumno.ET26\\source\\repos\\AgustinEscobar-Act16\\ConsoleApp1\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAEMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T10:55:53.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-05T10:55:53.856Z"
             }
           ]
         }

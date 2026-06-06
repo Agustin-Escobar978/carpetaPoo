@@ -15,11 +15,13 @@ namespace Punto2
         llamar a sus métodos y propiedades. También crear un objeto de la clase
         Empleado y llamar a sus métodos y propiedades.*/
 
-    class Persona {
+    public class Persona
+    {
         protected string nombre;
         protected int edad;
 
-        public Persona() {
+        public Persona()
+        {
             Console.Write("Ingrese el nombre de la persona: ");
             nombre = Console.ReadLine();
             Console.Write($"Ingrese la edad de {nombre}: ");
@@ -28,47 +30,56 @@ namespace Punto2
 
         public string Nombre
         {
-            set {
+            set
+            {
                 nombre = value;
             }
-            get {
+            get
+            {
                 return nombre;
             }
         }
         public int Edad
         {
-            set {
+            set
+            {
                 edad = value;
             }
-            get {
+            get
+            {
                 return edad;
             }
         }
 
-        public void imprimirPer() {
+        public void imprimirPer()
+        {
             Console.Write($"Nombre de la persona: {nombre}\nEdad de {nombre}: {edad}\n");
         }
     }
 
     class Empleado : Persona
     {
-        private float sueldo; 
+        private float sueldo;
 
         public float Sueldo
         {
-            set {
+            set
+            {
                 sueldo = value;
             }
-            get {
+            get
+            {
                 return sueldo;
             }
         }
 
-        public Empleado() {
+        public Empleado()
+        {
             Console.Write($"Ingrese el sueldo de {nombre}: ");
             sueldo = float.Parse(Console.ReadLine());
         }
-        public void imprimirEmp() {
+        public void imprimirEmp()
+        {
             imprimirPer();
             Console.WriteLine($"Sueldo del empleado: {sueldo}\n");
         }

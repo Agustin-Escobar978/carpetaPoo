@@ -1,5 +1,6 @@
 <Solution>
-  <Project Path="ConsoleApp1/Punto1.csproj" />
-  <Project Path="Punto2/Punto2.csproj" />
-  <Project Path="Punto3/Punto3.csproj" />
+  <Project Path="Punto1/Punto1.csproj" Id="a8c79b3e-54fa-4abf-b6b7-a15749e8b3ed" />
+  <Project Path="Punto2/Punto2.csproj" Id="bfc9adfd-7ee9-49f2-baf6-b890567e8221" />
+  <Project Path="Punto3/Punto3.csproj" Id="d3db6877-5054-4381-80dc-fa844e5ac4f4" />
+  <Project Path="Punto4/Punto4.csproj" Id="bee32dca-d8a0-4cc0-82de-3a8957b8a6c5" />
 </Solution>

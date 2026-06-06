@@ -15,7 +15,7 @@ namespace Punto2
         base al precio, además, mostrar el producto más caro y más barato del
         inventario.*/
 
-    class Producto
+    public class Producto
     {
         private string nombre;
         private float precio;
@@ -85,7 +85,7 @@ namespace Punto2
                         int auxS = productos[j].Stock;
                         string auxN = productos[j].Nombre;
                         productos[j].Precio = productos[j + 1].Precio;
-                        productos[.j].Nombre = productos[j + 1].Nombre;
+                        productos[j].Nombre = productos[j + 1].Nombre;
                         productos[j].Stock = productos[j + 1].Stock;
                         productos[j + 1].Precio = auxP;
                         productos[j + 1].Nombre = auxN;
