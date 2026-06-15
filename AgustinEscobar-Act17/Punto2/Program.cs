@@ -123,33 +123,35 @@ namespace Punto2
                         pel[j + 1].Calificacion = auxC;
                     }
                 }
-                if (alta < pel[i].Calificacion)
-                {
-                    alta = pel[i].Calificacion;
-                }
-                if (dur > pel[i].DuracionMinutos)
-                {
-                    dur = pel[i].DuracionMinutos;
-                }
             }
             Console.WriteLine("***Lista de peliculas ordenadas de mayor a menor***\n");
             for (int k = 0; k < pel.Length; k++) {
                 Console.WriteLine($"{pel[k].Titulo} tiene una duracion de {pel[k].DuracionMinutos} con una calificacion de: {pel[k].Calificacion}\n");
             }
-            Console.WriteLine("***La/las peliculas con mas alta calificacion son***\n");
-            for (int j = 0; j < pel.Length; j++)
-            {
-                if (alta == pel[j].Calificacion)
+            for (int l = 0; l < pel.Length; l++) {
+                if (alta < pel[l].Calificacion)
                 {
-                    Console.WriteLine($"{pel[j].Titulo} con {pel[j].Calificacion}\n");
+                    alta = pel[l].Calificacion;
+                }
+                if (dur > pel[l].DuracionMinutos)
+                {
+                    dur = pel[l].DuracionMinutos;
+                }
+            }
+            Console.WriteLine("***La/las peliculas con mas alta calificacion son***\n");
+            for (int m = 0; m < pel.Length; m++)
+            {
+                if (alta == pel[m].Calificacion)
+                {
+                    Console.WriteLine($"{pel[m].Titulo} con {pel[m].Calificacion}\n");
                 }
             }
             Console.WriteLine("***La/las peliculas con la duracion mas corta son***\n");
-            for (int j = 0; j < pel.Length; j++)
+            for (int n = 0; n < pel.Length; n++)
             {
-                if (dur == pel[j].DuracionMinutos)
+                if (dur == pel[n].DuracionMinutos)
                 {
-                    Console.WriteLine($"{pel[j].Titulo} con {pel[j].DuracionMinutos}");
+                    Console.WriteLine($"{pel[n].Titulo} con {pel[n].DuracionMinutos}");
                 }
             }
         }
