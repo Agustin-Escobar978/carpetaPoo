@@ -37,6 +37,7 @@ namespace Punto3
         public SondaSubmarina(string m, int am, int pma) : base(m, am)
         {
             presionMaximaAtm = pma;
+            Console.WriteLine($"La sonda submarina es del modelo: {modelo}\nTiene una autonomia por minutos de {autonomiaMinutos}m\nY soporta una presion maxima de atmosfera de {presionMaximaAtm}\n");
         }
     }
 
@@ -47,6 +48,7 @@ namespace Punto3
         public RoverTerrestre(string m, int am, int cr) : base(m, am)
         {
             cantidadRuedas = cr;
+            Console.WriteLine($"El rover terrestre es del modelo {modelo}\nTiene una autonomia por minutos de {autonomiaMinutos}m\nY tiene una cantidad de ruedas de {cantidadRuedas}");
         }
     }
 
@@ -54,7 +56,9 @@ namespace Punto3
     {
         static void Main(string[] args)
         {
-            SondaSubmarina ss1 = new SondaSubmarina();
+            SondaSubmarina ss1 = new SondaSubmarina("Garmin STRIKER Vivid 7sv", 500, 10);
+            RoverTerrestre rt1 = new RoverTerrestre("ExoMy", 100, 6);
+            
 
             Console.ReadKey();
         }
