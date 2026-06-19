@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED56FF15-C567-4556-B225-9A5702FF7B94}|Punto3\\Punto3.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED56FF15-C567-4556-B225-9A5702FF7B94}|Punto3\\Punto3.csproj|solutionrelative:punto3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED56FF15-C567-4556-B225-9A5702FF7B94}|Punto3\\Punto3.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto3\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED56FF15-C567-4556-B225-9A5702FF7B94}|Punto3\\Punto3.csproj|solutionrelative:punto3\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED56FF15-C567-4556-B225-9A5702FF7B94}|Punto3\\Punto3.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto3\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED56FF15-C567-4556-B225-9A5702FF7B94}|Punto3\\Punto3.csproj|solutionrelative:punto3\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B725A126-B0B2-4380-A912-D50E533263C7}|Punto2\\Punto2.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto2\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B725A126-B0B2-4380-A912-D50E533263C7}|Punto2\\Punto2.csproj|solutionrelative:punto2\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B725A126-B0B2-4380-A912-D50E533263C7}|Punto2\\Punto2.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B725A126-B0B2-4380-A912-D50E533263C7}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B725A126-B0B2-4380-A912-D50E533263C7}|Punto2\\Punto2.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto2\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B725A126-B0B2-4380-A912-D50E533263C7}|Punto2\\Punto2.csproj|solutionrelative:punto2\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45741631-3BC5-4084-B45D-E45560D9DEF7}|Punto1\\Punto1.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45741631-3BC5-4084-B45D-E45560D9DEF7}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45741631-3BC5-4084-B45D-E45560D9DEF7}|Punto1\\Punto1.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto1\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45741631-3BC5-4084-B45D-E45560D9DEF7}|Punto1\\Punto1.csproj|solutionrelative:punto1\\archivo1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45741631-3BC5-4084-B45D-E45560D9DEF7}|Punto1\\Punto1.csproj|c:\\users\\alumno.et26\\downloads\\carpeta visual studio proyectos\\agustinescobar-act19\\punto1\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45741631-3BC5-4084-B45D-E45560D9DEF7}|Punto1\\Punto1.csproj|solutionrelative:punto1\\archivo2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Archivo2.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto3\\Archivo2.cs",
+              "RelativeDocumentMoniker": "Punto3\\Archivo2.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto3\\Archivo2.cs",
+              "RelativeToolTip": "Punto3\\Archivo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T14:13:01.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto3\\Archivo1.cs",
+              "RelativeDocumentMoniker": "Punto3\\Archivo1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto3\\Archivo1.cs",
+              "RelativeToolTip": "Punto3\\Archivo1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T13:54:11.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto3\\Program.cs",
+              "RelativeDocumentMoniker": "Punto3\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto3\\Program.cs",
+              "RelativeToolTip": "Punto3\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T13:49:31.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Archivo2.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto2\\Archivo2.cs",
+              "RelativeDocumentMoniker": "Punto2\\Archivo2.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto2\\Archivo2.cs",
+              "RelativeToolTip": "Punto2\\Archivo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T13:29:53.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto2\\Archivo1.cs",
+              "RelativeDocumentMoniker": "Punto2\\Archivo1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto2\\Archivo1.cs",
+              "RelativeToolTip": "Punto2\\Archivo1.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T13:18:55.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto2\\Program.cs",
+              "RelativeDocumentMoniker": "Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto2\\Program.cs",
+              "RelativeToolTip": "Punto2\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T13:16:27.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Archivo2.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto1\\Archivo2.cs",
+              "RelativeDocumentMoniker": "Punto1\\Archivo2.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto1\\Archivo2.cs",
+              "RelativeToolTip": "Punto1\\Archivo2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T12:11:17.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Archivo1.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto1\\Archivo1.cs",
+              "RelativeDocumentMoniker": "Punto1\\Archivo1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto1\\Archivo1.cs",
+              "RelativeToolTip": "Punto1\\Archivo1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAE8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T11:57:03.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto1\\Program.cs",
+              "RelativeDocumentMoniker": "Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Downloads\\carpeta visual studio proyectos\\AgustinEscobar-Act19\\Punto1\\Program.cs",
+              "RelativeToolTip": "Punto1\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T11:52:46.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
