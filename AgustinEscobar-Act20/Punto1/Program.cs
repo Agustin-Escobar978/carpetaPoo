@@ -42,6 +42,7 @@ namespace Punto1
             numeroVuelo = nv;
             destino = d;
             duracionHoras = dh;
+            Console.WriteLine("Ejecutandose en el constructor de vuelo");
         }
 
     }
@@ -58,6 +59,7 @@ namespace Punto1
         public VueloInternacional(int nv, string d, int dh, string pd) : base(nv, d, dh)
         {
             paisDestino = pd;
+            Console.WriteLine("Ejecutandose en el contructor de vueloInternacional\n");
         }
     }
 
