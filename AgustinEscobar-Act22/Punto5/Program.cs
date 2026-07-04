@@ -30,6 +30,26 @@ namespace Punto5
         private string nombre;
         private int numeroDorsal;
         private double tiempoTotal;
+        public string Nombre
+        {
+            set { nombre = value; }
+            get { return nombre; }
+        }
+        public int NumeroDorsal
+        {
+            set { numeroDorsal = value;  }
+            get { return numeroDorsal;  }
+        }
+        public double TiempoTotal
+        {
+            set {  tiempoTotal = value; }
+            get { return tiempoTotal; }
+        }
+        public Corredor(string nombre, int numeroDorsal)
+        {
+            this.nombre = nombre;
+            this.numeroDorsal = numeroDorsal;
+        }
 
         public void registrarTiempo(int horas, int minutos)
         {
@@ -47,36 +67,61 @@ namespace Punto5
         private string codigo;
         DateTime horaInicio = new DateTime();
         DateTime horaFin = new DateTime();
-        List<Corredor> c = new List<Corredor>();
+        List<Corredor> listaCorredores = new List<Corredor>();
+
+        public string Codigo
+        {
+            set { codigo = value; }
+            get { return codigo; }
+        }
+        public DateTime HoraInicio
+        {
+            set {  horaInicio = value; }
+            get { return horaInicio;  }
+        }
+        public DateTime HoraFin
+        {
+            set {  horaFin = value; }
+            get { return horaFin; }
+        }
 
         public Carrera()
         {
-            Console.WriteLine("Ingrese el codigo de la carrera: ");
-            codigo = Console.ReadLine();
-            Console.WriteLine("Ingese la hora de inicio de la carrera: ");
-            horaInicio = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese la hora de fin de la carrera: ");
-            horaFin = DateTime.Parse(Console.ReadLine());
+            Console.Write("Ingrese el codigo de la carrera: ");
+            Codigo = Console.ReadLine();
+            Console.Write("Ingrese la hora de inicio de la carrera: ");
+            HoraInicio = DateTime.Parse(Console.ReadLine());
+            Console.Write("Ingrese la hora de fin de la carrera: ");
+            HoraFin = DateTime.Parse(Console.ReadLine());
             Console.WriteLine("\n");
-            cargarCorrerores();
+            cargarCorredores();
         }
-        public Carrera(string c, DateTime hi, DateTime hf)
+        public Carrera(string codigo, string horaInicio, string horaFin)
         {
-            codigo = c;
-            horaInicio = hi;
-            horaFin = hf;
+            this.Codigo = codigo;
+            this.HoraInicio = DateTime.Parse(horaInicio);
+            this.HoraFin = DateTime.Parse(horaFin);
+            Console.WriteLine($"{Codigo}\nInicio de la carrera: {HoraInicio}\nFin de la carrera: {HoraFin}\n***Corredores***");
             Console.WriteLine();
+            cargarCorredores();
         }
 
-
-        public void cargarCorrerores()
+        public TimeSpan calcularDuracion(DateTime hi, DateTime hf)
         {
-            for (int i = 0; i < 2; i++)
+            TimeSpan duracion = hf - hi;
+            return duracion;
+        }
+
+        public void cargarCorredores()
+        {
+            for (int i = 0; i < 6; i++)
             {
-                Console.Write("Ingrese el nombre del correror: ");
+                Console.Write("Ingrese el nombre del corredor: ");
                 string nombre = Console.ReadLine();
                 Console.Write($"Ingrese el numero de {nombre}: ");
                 int dorsal = int.Parse(Console.ReadLine());
+                Corredor corre = new Corredor(nombre, dorsal);
+                listaCorredores.Add(corre);
                 Console.Write($"Ingrese el tiempo en terminar la carrera de {nombre}: ");
                 TimeSpan tiempo = TimeSpan.Parse(Console.ReadLine());
                 TimeSpan unaHora = new TimeSpan(1, 0, 0);
@@ -84,21 +129,83 @@ namespace Punto5
                 {
                     int horas = tiempo.Hours;
                     int minutos = tiempo.Minutes;
-                    (horas, minutos);
+                    corre.registrarTiempo(horas, minutos);
                 }
                 else
                 {
-                    int minutos = durAct.Minutes;
-                    registrarDuracion(minutos);
+                    int minutos = tiempo.Minutes;
+                    corre.registrarTiempo(minutos);
+                }
+                Console.WriteLine();
+            }
+        }
+
+        public void masRapido()
+        {
+            double masRapido = listaCorredores[0].TiempoTotal;
+            foreach (Corredor c in listaCorredores) 
+            {
+                
+                if (masRapido > c.TiempoTotal )
+                {
+                    masRapido = c.TiempoTotal;
+                }
+            }
+            Console.WriteLine("***El/los corredores mas rapido de esta carrera son***\n");
+            foreach (Corredor c in listaCorredores)
+            {
+                if(masRapido == c.TiempoTotal)
+                {
+                    Console.WriteLine($"{c.Nombre} con un tiempo de {c.TiempoTotal}\n");
                 }
             }
         }
+
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            Carrera[] carreras = new Carrera[4];
+
+            for (int i = 0; i < carreras.Length; i++)
+            {
+                if (i == 2)
+                {
+                    carreras[i] = new Carrera("cvb1233", "15:00:00", "18:00:00");
+                    carreras[i].masRapido();
+                }
+                else
+                {
+                    carreras[i] = new Carrera();
+                    carreras[i].masRapido();
+                }
+                
+            }
+
+            TimeSpan masLargo = carreras[0].calcularDuracion(carreras[0].HoraInicio, carreras[0].HoraFin); // obtengo la duracion mas larga
+            for (int j = 0; j < carreras.Length; j++)
+            {
+                TimeSpan duracionAct = carreras[j].calcularDuracion(carreras[j].HoraInicio, carreras[j].HoraFin);
+                if (masLargo < duracionAct)
+                {
+                    masLargo = duracionAct;
+                }
+            }
+            Console.WriteLine("***La/las carreras con mas duracion son***");    
+            for (int k = 0; k < carreras.Length; k++)
+            {
+                TimeSpan duracionAct = carreras[k].calcularDuracion(carreras[k].HoraInicio, carreras[k].HoraFin);
+                if (masLargo == duracionAct)
+                {
+                    Console.WriteLine($"{carreras[k].Codigo} con una duracion de {duracionAct}");
+                }
+            }
+
+
+
+            Console.ReadKey();
         }
     }
 }

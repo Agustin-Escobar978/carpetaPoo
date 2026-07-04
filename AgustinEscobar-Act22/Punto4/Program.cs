@@ -37,7 +37,7 @@ namespace Punto4
         static void Main(string[] args)
         {
             Vuelo[] v1 = new Vuelo[4];
-            for(int i = 0; i < v1.Length; i++) // Creo objetos
+            for (int i = 0; i < v1.Length; i++) // Creo objetos
             {
                 Console.Write("Ingrese el codigo del vuelo: ");
                 string c = Console.ReadLine();
@@ -58,13 +58,13 @@ namespace Punto4
                 {
                     masLargo = duracionAct;
                 }
-                if(masTemprano > v1[j].horaSalida)
+                if (masTemprano > v1[j].horaSalida)
                 {
                     masTemprano = v1[j].horaSalida;
                 }
-                
+
             }
-            Console.WriteLine("***El/Los vuelos mas largos son***\n");  // 
+            Console.WriteLine("***El/Los vuelos mas largos son***\n");  //
             for (int k = 0; k < v1.Length; k++)
             {
                 TimeSpan duracionAct = v1[k].duracionVuelo(v1[k].horaSalida, v1[k].horaLlegada);
@@ -73,14 +73,19 @@ namespace Punto4
                     Console.WriteLine($"{v1[k].codigo} con una duracion de {duracionAct}\n");
                 }
             }
-            Console.WriteLine("***El/los vuelos con la salida mas temprana son***");
+            Console.WriteLine("***El/los vuelos con la salida mas temprana son***\n");
             for (int l = 0; l < v1.Length; l++)
             {
                 if (masTemprano == v1[l].horaSalida)
                 {
-                    Console.WriteLine($"{v1[l].codigo} en la hora {v1[l].horaSalida}");
+                    int hora = v1[l].horaSalida.Hour;
+                    int minuto = v1[l].horaSalida.Minute;
+                    int segundos = v1[l].horaSalida.Second;
+                    Console.WriteLine($"{v1[l].codigo} en la hora {hora}:{minuto}:{segundos}\n");
                 }
             }
+
+            Console.ReadKey();
         }
     }
 }
