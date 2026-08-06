@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0741EE5D-14F4-483E-AECA-260E8F8EA957}|Punto2\\Punto2.csproj|c:\\users\\alumno.et26\\source\\repos\\agustinescobar-act23\\punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0741EE5D-14F4-483E-AECA-260E8F8EA957}|Punto2\\Punto2.csproj|solutionrelative:punto2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77C733E-471E-47D7-8916-235FA81C62A7}|Punto1\\Punto1.csproj|c:\\users\\alumno.et26\\source\\repos\\agustinescobar-act23\\punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77C733E-471E-47D7-8916-235FA81C62A7}|Punto1\\Punto1.csproj|solutionrelative:punto1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act23\\Punto2\\Program.cs",
+              "RelativeDocumentMoniker": "Punto2\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act23\\Punto2\\Program.cs",
+              "RelativeToolTip": "Punto2\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T11:52:07.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act23\\Punto1\\Program.cs",
+              "RelativeDocumentMoniker": "Punto1\\Program.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\source\\repos\\AgustinEscobar-Act23\\Punto1\\Program.cs",
+              "RelativeToolTip": "Punto1\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T11:12:15.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
