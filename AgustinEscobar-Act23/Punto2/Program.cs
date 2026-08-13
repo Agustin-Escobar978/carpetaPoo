@@ -104,9 +104,9 @@ namespace Punto2
         public void mostrarDronesRestantes()
         {
             Console.WriteLine("***Flota actualizada***\n");
-            foreach(Dron dron in drones)
+            for (int i = 0; i < drones.Count; i++)
             {
-                Console.WriteLine($"- El dron {dron.Codigo} tiene {dron.NivelBateria}% bateria");
+                Console.WriteLine($"- El dron {drones[i].Codigo} tiene {drones[i].NivelBateria}% bateria");
             }
             Console.WriteLine($"\nLa cantidad de drones operativos ahora son: {drones.Count}");
         }

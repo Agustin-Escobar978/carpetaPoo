@@ -109,7 +109,7 @@ namespace Punto6
                 if (texto == lib.Titulo)
                 {
                     libros.Remove(lib);
-                    Console.WriteLine("Eliminado con exito");
+                    Console.WriteLine("Eliminado con exito\n");
                     break;
                 }
                 else
@@ -117,7 +117,7 @@ namespace Punto6
                     existe++;
                     if (existe == libros.Count)
                     {
-                        Console.WriteLine("El libro no esta en el catalogo");
+                        Console.WriteLine("El libro no esta en el catalogo\n");
                     }
                 }
             }
