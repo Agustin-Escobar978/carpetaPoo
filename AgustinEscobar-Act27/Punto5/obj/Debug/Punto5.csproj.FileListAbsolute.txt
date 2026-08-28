@@ -1,0 +1,10 @@
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\bin\Debug\Punto5.exe.config
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\bin\Debug\Punto5.exe
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\bin\Debug\Punto5.pdb
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.csproj.AssemblyReference.cache
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.Form1.resources
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.Properties.Resources.resources
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.csproj.GenerateResource.cache
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.csproj.CoreCompileInputs.cache
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.exe
+C:\Users\alumno.ET26\source\repos\AgustinEscobar-Act27\Punto5\obj\Debug\Punto5.pdb
