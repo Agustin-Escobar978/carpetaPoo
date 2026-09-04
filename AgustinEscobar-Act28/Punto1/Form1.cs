@@ -10,6 +10,14 @@ using System.Windows.Forms;
 
 namespace Punto1
 {
+
+    /*
+     1. Calculadora de Promedio de Notas
+        ● Consigna: Crear un formulario con tres TextBox para ingresar notas y un Button
+        &quot;Calcular&quot;. Convertir los valores con int.Parse() o double.Parse() y mostrar en una
+        Label el promedio. Si la nota es mayor o igual a 6, cambiar el color del texto de la
+        etiqueta a verde; de lo contrario, a rojo.
+     */
     public partial class Form1 : Form
     {
         public Form1()
