@@ -30,17 +30,17 @@ namespace Punto5
         {
             if (comboBox1.Text == "Argentina")
             {
-                pictureBox1.ImageLocation = $"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbmjcks8sA7OplVwZszl932rVi5HMz3a5tIWtzXJ76qA&s=10";
+                pictureBox1.ImageLocation = $"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSolkH48jp1W1zo9dRQVd0vqgpt88DtCD8pS82YqGQtpz6ss_rCxSRaXA&s=10";
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
             else if(comboBox1.Text == "Brasil")
             {
-                pictureBox1.ImageLocation = $"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJJqPsIbZcRrfu5SBdh6igDyvjgZ48zL5Oh_W13EbUA&s=10";
+                pictureBox1.ImageLocation = $"https://cdn0.uncomo.com/es/posts/1/2/5/significado_de_la_bandera_y_escudo_de_brasil_49521_orig.jpg";
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
             else if (comboBox1.Text == "Uruguay")
             {
-                pictureBox1.ImageLocation = $"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8tpmlQvbgL4_csEEh4xpUnDMJ6HbqM79AE8QVSd571g&s=10";
+                pictureBox1.ImageLocation = $"https://cdn.pixabay.com/photo/2016/06/16/04/21/uruguay-1460612_640.jpg";
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             }
         }
