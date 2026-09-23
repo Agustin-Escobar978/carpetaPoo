@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9EE381-3D56-43C0-9EDD-9308E5FED7C7}|Punto7\\Punto7.csproj|c:\\users\\alumno.et26\\documents\\agustinescobar-act29\\punto7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC9EE381-3D56-43C0-9EDD-9308E5FED7C7}|Punto7\\Punto7.csproj|solutionrelative:punto7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC9EE381-3D56-43C0-9EDD-9308E5FED7C7}|Punto7\\Punto7.csproj|c:\\users\\alumno.et26\\documents\\agustinescobar-act29\\punto7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AC9EE381-3D56-43C0-9EDD-9308E5FED7C7}|Punto7\\Punto7.csproj|solutionrelative:punto7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB28BA7-70B8-4FB8-B01B-0FDD28EB5BFD}|Punto10\\Punto10.csproj|c:\\users\\alumno.et26\\documents\\agustinescobar-act29\\punto10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EB28BA7-70B8-4FB8-B01B-0FDD28EB5BFD}|Punto10\\Punto10.csproj|solutionrelative:punto10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB28BA7-70B8-4FB8-B01B-0FDD28EB5BFD}|Punto10\\Punto10.csproj|c:\\users\\alumno.et26\\documents\\agustinescobar-act29\\punto10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4EB28BA7-70B8-4FB8-B01B-0FDD28EB5BFD}|Punto10\\Punto10.csproj|solutionrelative:punto10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto7\\Form1.cs",
+              "RelativeDocumentMoniker": "Punto7\\Form1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto7\\Form1.cs",
+              "RelativeToolTip": "Punto7\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T14:32:28.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto7\\Form1.cs",
+              "RelativeDocumentMoniker": "Punto7\\Form1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto7\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Punto7\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T14:32:26.052Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto10\\Form1.cs",
+              "RelativeDocumentMoniker": "Punto10\\Form1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto10\\Form1.cs",
+              "RelativeToolTip": "Punto10\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwCkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:13:33.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto10\\Form1.cs",
+              "RelativeDocumentMoniker": "Punto10\\Form1.cs",
+              "ToolTip": "C:\\Users\\alumno.ET26\\Documents\\AgustinEscobar-Act29\\Punto10\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Punto10\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T12:13:27.142Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
